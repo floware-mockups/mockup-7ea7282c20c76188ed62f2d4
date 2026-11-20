@@ -1,0 +1,241 @@
+{
+  "title": "Organizzazione delle giornate di lavoro",
+  "description": "Scadenziario navigabile per pianificare attività, priorità e impegni quotidiani.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "panoramica",
+      "title": "Panoramica",
+      "description": "Quadro rapido delle attività in scadenza e del carico di lavoro.",
+      "metrics": [
+        {
+          "label": "Attività di oggi",
+          "value": "6"
+        },
+        {
+          "label": "In ritardo",
+          "value": "2"
+        },
+        {
+          "label": "Completate oggi",
+          "value": "3"
+        },
+        {
+          "label": "Prossima scadenza",
+          "value": "10:30"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Data",
+        "Orario",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Preparare il riepilogo del progetto Lumo",
+          "12/06/2025",
+          "09:00",
+          "Alta",
+          "In corso"
+        ],
+        [
+          "Verificare le note della riunione Vela",
+          "12/06/2025",
+          "10:30",
+          "Media",
+          "Da iniziare"
+        ],
+        [
+          "Inviare il piano settimanale a Nubi",
+          "12/06/2025",
+          "14:00",
+          "Alta",
+          "Da iniziare"
+        ],
+        [
+          "Riordinare le attività del progetto Brina",
+          "11/06/2025",
+          "16:00",
+          "Media",
+          "In ritardo"
+        ]
+      ],
+      "form": [
+        "Attività",
+        "Data",
+        "Orario",
+        "Priorità",
+        "Stato"
+      ]
+    },
+    {
+      "id": "attivita",
+      "title": "Attività",
+      "description": "Consulta e filtra le attività per data, priorità o stato. Usa il modulo per aggiungere un impegno.",
+      "metrics": [
+        {
+          "label": "Attività pianificate",
+          "value": "12"
+        },
+        {
+          "label": "Da iniziare",
+          "value": "5"
+        },
+        {
+          "label": "In corso",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Data",
+        "Orario",
+        "Durata",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Preparare il riepilogo del progetto Lumo",
+          "12/06/2025",
+          "09:00",
+          "60 min",
+          "Alta",
+          "In corso"
+        ],
+        [
+          "Verificare le note della riunione Vela",
+          "12/06/2025",
+          "10:30",
+          "30 min",
+          "Media",
+          "Da iniziare"
+        ],
+        [
+          "Pausa e revisione della giornata",
+          "12/06/2025",
+          "12:00",
+          "30 min",
+          "Bassa",
+          "Da iniziare"
+        ],
+        [
+          "Inviare il piano settimanale a Nubi",
+          "12/06/2025",
+          "14:00",
+          "45 min",
+          "Alta",
+          "Da iniziare"
+        ],
+        [
+          "Aggiornare la scaletta di Brina",
+          "12/06/2025",
+          "15:30",
+          "45 min",
+          "Media",
+          "Da iniziare"
+        ],
+        [
+          "Riordinare le attività del progetto Brina",
+          "11/06/2025",
+          "16:00",
+          "30 min",
+          "Media",
+          "In ritardo"
+        ],
+        [
+          "Controllare il calendario di Lumo",
+          "11/06/2025",
+          "11:00",
+          "20 min",
+          "Bassa",
+          "Completata"
+        ]
+      ],
+      "form": [
+        "Attività",
+        "Data",
+        "Orario",
+        "Durata",
+        "Priorità",
+        "Stato"
+      ]
+    },
+    {
+      "id": "calendario",
+      "title": "Calendario",
+      "description": "Visualizza gli impegni della settimana e pianifica blocchi di lavoro senza sovrapposizioni.",
+      "metrics": [
+        {
+          "label": "Impegni questa settimana",
+          "value": "9"
+        },
+        {
+          "label": "Ore pianificate",
+          "value": "18"
+        },
+        {
+          "label": "Giornata più libera",
+          "value": "Venerdì"
+        }
+      ],
+      "columns": [
+        "Impegno",
+        "Data",
+        "Orario",
+        "Durata",
+        "Categoria"
+      ],
+      "rows": [
+        [
+          "Riepilogo progetto Lumo",
+          "12/06/2025",
+          "09:00",
+          "60 min",
+          "Lavoro individuale"
+        ],
+        [
+          "Revisione note Vela",
+          "12/06/2025",
+          "10:30",
+          "30 min",
+          "Revisione"
+        ],
+        [
+          "Pianificazione settimanale Nubi",
+          "12/06/2025",
+          "14:00",
+          "45 min",
+          "Pianificazione"
+        ],
+        [
+          "Controllo scaletta Brina",
+          "13/06/2025",
+          "11:00",
+          "45 min",
+          "Lavoro individuale"
+        ],
+        [
+          "Riepilogo della settimana",
+          "13/06/2025",
+          "15:00",
+          "30 min",
+          "Revisione"
+        ]
+      ],
+      "form": [
+        "Impegno",
+        "Data",
+        "Orario",
+        "Durata",
+        "Categoria"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "blu-istituzionale",
+    "fonts": "istituzionale"
+  }
+}
