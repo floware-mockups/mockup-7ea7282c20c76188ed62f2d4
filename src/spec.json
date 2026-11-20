@@ -161,7 +161,9 @@
         "Durata",
         "Priorità",
         "Stato"
-      ]
+      ],
+      "view": "kanban",
+      "statusColumn": 5
     },
     {
       "id": "calendario",
@@ -232,10 +234,106 @@
         "Durata",
         "Categoria"
       ]
+    },
+    {
+      "id": "appuntamenti",
+      "title": "Appuntamenti",
+      "description": "Pianifica gli impegni della settimana e consulta il grafico degli appuntamenti per giorno.",
+      "metrics": [
+        {
+          "label": "Appuntamenti in settimana",
+          "value": "7"
+        },
+        {
+          "label": "Giorni con impegni",
+          "value": "5"
+        },
+        {
+          "label": "Categoria più frequente",
+          "value": "Pianificazione"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Appuntamento",
+        "Data",
+        "Orario",
+        "Categoria"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "Pianificazione progetto Lumo",
+          "16/06/2025",
+          "09:00",
+          "Pianificazione"
+        ],
+        [
+          "Lunedì",
+          "Revisione note Vela",
+          "16/06/2025",
+          "11:00",
+          "Revisione"
+        ],
+        [
+          "Martedì",
+          "Riunione progetto Nubi",
+          "17/06/2025",
+          "10:00",
+          "Riunione"
+        ],
+        [
+          "Martedì",
+          "Aggiornamento attività Brina",
+          "17/06/2025",
+          "14:30",
+          "Lavoro individuale"
+        ],
+        [
+          "Mercoledì",
+          "Controllo avanzamento Lumo",
+          "18/06/2025",
+          "09:30",
+          "Revisione"
+        ],
+        [
+          "Giovedì",
+          "Pianificazione consegne Vela",
+          "19/06/2025",
+          "11:00",
+          "Pianificazione"
+        ],
+        [
+          "Venerdì",
+          "Riepilogo settimanale",
+          "20/06/2025",
+          "15:00",
+          "Riunione"
+        ]
+      ],
+      "form": [
+        "Giorno",
+        "Appuntamento",
+        "Data",
+        "Orario",
+        "Categoria"
+      ],
+      "chartColumn": 0
     }
   ],
   "theme": {
-    "palette": "blu-istituzionale",
+    "palette": "rosso-civico",
     "fonts": "istituzionale"
-  }
+  },
+  "navigation": "top",
+  "custom": [
+    {
+      "name": "AndamentoAppuntamenti",
+      "title": "Appuntamenti per giorno",
+      "description": "Grafico a linee interattivo con tabella collegata e azzeramento del filtro.",
+      "role": "section",
+      "pageId": "appuntamenti",
+      "position": "top"
+    }
+  ]
 }
