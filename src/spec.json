@@ -338,7 +338,7 @@
     {
       "name": "DettaglioConEliminazione",
       "title": "Dettaglio con icona di rimozione",
-      "description": "Mostra i dati della riga e un cestino accessibile per rimuoverla.",
+      "description": "Dettaglio disponibile su tutte le pagine, con cestino visibile, etichetta accessibile e conferma della rimozione.",
       "role": "detail"
     }
   ]
