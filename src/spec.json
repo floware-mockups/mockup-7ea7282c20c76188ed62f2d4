@@ -334,6 +334,12 @@
       "role": "section",
       "pageId": "appuntamenti",
       "position": "top"
+    },
+    {
+      "name": "DettaglioConEliminazione",
+      "title": "Dettaglio con icona di rimozione",
+      "description": "Mostra i dati della riga e un cestino accessibile per rimuoverla.",
+      "role": "detail"
     }
   ]
 }
